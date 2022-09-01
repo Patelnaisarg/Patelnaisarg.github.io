@@ -1,4 +1,4 @@
-#simple game of rock,paper,scissors with if,else
+#simple game of rock,paper,scissors with if,else and while loop
 import random
 
 
@@ -8,9 +8,12 @@ your_score=0
 print("let's start the game(IF YOU WANT TO QUITE THAN JUST ENTER THE'QUITE')")
 
 while True:
+    #choices for bot to choose among this
     choices=["rock", "paper", "scissor"]
     a=input("enter your choice ROCK,PAPER OR SCISSOR :")
     bot=random.choice(choices)
+    #main program of this game 
+    #conditons of win and loose
     if a==bot:
         print("it's a tie")
         if a=="rock":
@@ -45,3 +48,7 @@ print("bot score is",bot_score)
 if your_score>bot_score:
     print("CONGRATULATIONS! YOU WIN THE GAME")
 else:print("SORRY! you lose the game ")
+#This simple programme tought me lot of about python basics
+#like when and how to use while loop ,if else statement and many things
+#by continue this program I get to know that python is esier than other language for learning
+#I learn loop on Linkdin and some help of tutors.
