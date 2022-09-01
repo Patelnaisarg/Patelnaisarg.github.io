@@ -1,3 +1,4 @@
+#simple program of geting dog's age
 ageH=0
 ageD=0
 ageH=float(input("Input a dog's age in human year: "))
