@@ -1,8 +1,9 @@
+#program for number entered is divisible by 2 or 3 and if yes than multiply them if not than only add them.
 x=0
 y=0
 a=0
 b=0
-
+#input from user
 x,y = input("Enter two integers:").split(",")
 a=float(x)
 b=float(y)
