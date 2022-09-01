@@ -1,3 +1,4 @@
+#program for know how many days are in each month
 mon=input("Input the name of Month:")
 if mon in['january','march','may','july','august','october','december']:
     print("No. of days:31 days")
