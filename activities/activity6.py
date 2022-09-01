@@ -1,3 +1,4 @@
+#program for know your speed.
 met=0
 hr=0
 min=0
@@ -18,7 +19,9 @@ mil=km/1.609
 speedkm=km/hour
 speedm=mil/hour
 speedme=met/sec
-
+#speed in meter per sec
 print("your speed in meters/sec is ",speedme)
+#speed in kilometer per hour
 print("Your speed in km/h is ",speedkm)
+#speed in miles per hour
 print("Your speed in miles/h is ",speedm)
